@@ -23,5 +23,8 @@ class methodtypes{
         //static method calling
         staticmethod.value();
 
+        //Predefined method
+        System.out.println("Predefined : "+Math.random());
+
     }
 }
