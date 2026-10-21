@@ -53,5 +53,9 @@ class methodoverloading{
         order obj3 = new order();
         obj3.order1(10,"Arul");
         obj3.order1("Bathra",12);
+
+        //4. Type conversion
+        int z = obj.param1('a','b');
+        System.out.println("Type Conversion -> "+z);
     }
 }
