@@ -14,6 +14,22 @@ class staticmethod{
     }
 }
 
+abstract class car{
+    public abstract void drive();
+    public void playMusic(){
+        System.out.println("Playing music ... ");
+    }
+}
+
+class amaze extends car{
+    public void drive() {
+        System.out.println("Car driving is working...");
+    }
+    public void playMusic() {
+        System.out.println("Amaze car is playing...");
+    }
+}
+
 class methodtypes{
     public static void main(String[] args){
         //normal
@@ -25,6 +41,11 @@ class methodtypes{
 
         //Predefined method
         System.out.println("Predefined : "+Math.random());
+
+        //Abstract method values
+        car c = new amaze();
+        c.drive();
+        c.playMusic();
 
     }
 }
