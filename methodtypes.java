@@ -8,10 +8,20 @@ class normal{
     }
 }
 
+class staticmethod{
+    public static void value(){
+        System.out.print("Static method is calling ... ");
+    }
+}
+
 class methodtypes{
     public static void main(String[] args){
         //normal
         normal n = new normal();
         n.value();
+
+        //static method calling
+        staticmethod.value();
+
     }
 }
