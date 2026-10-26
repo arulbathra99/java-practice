@@ -8,6 +8,10 @@ class length{
         String s = sc.nextLine();
         int m = s.length();
 
-        System.out.println("Length is : "+m);
+        //System.out.println("Length is : "+m);
+
+        // print first and last characters
+
+        System.out.print("First character is "+s.charAt(0)+"\nLast charcter is "+s.charAt(m-1));
     }
 }
