@@ -12,6 +12,10 @@ class length{
 
         // print first and last characters
 
-        System.out.print("First character is "+s.charAt(0)+"\nLast charcter is "+s.charAt(m-1));
+       // System.out.print("First character is "+s.charAt(0)+"\nLast charcter is "+s.charAt(m-1));
+
+        for(int i=0;i<m;i++){
+            System.out.println(s.charAt(i));
+        }
     }
 }
